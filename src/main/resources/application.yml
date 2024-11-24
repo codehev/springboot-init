@@ -1,6 +1,6 @@
 # 公共配置文件
 # @author <a href="https://github.com/codehev">codehev</a>
-# 
+
 spring:
   application:
     name: springboot-init
@@ -21,9 +21,9 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://101.126.44.74:3306/api
-    username: api
-    password: BphX8GNHwHJ8Y4X
+    url: jdbc:mysql://localhost:3306/my_db
+    username: root
+    password: 123456
   # Redis 配置
   # todo 需替换配置，然后取消注释
 #  redis:
